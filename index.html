@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Epping Dental Centre</title>
+
+    <!--== Favicon ==-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!--== Google Fonts ==-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800&family=Roboto:wght@300&family=Shippori+Mincho:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--== Bootstrap CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Font Awesome Icon CSS ==-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--== Datetimepicker CSS ==-->
+    <link href="assets/css/jquery.datetimepicker.css" rel="stylesheet" />
+    <!--== Swiper CSS ==-->
+    <link href="assets/css/swiper.min.css" rel="stylesheet" />
+    <!--== Fancybox Min CSS ==-->
+    <link href="assets/css/fancybox.min.css" rel="stylesheet" />
+    <!--== Aos Min CSS ==-->
+    <link href="assets/css/aos.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--wrapper start-->
+    <div class="wrapper">
+      <!--== Start Preloader Content ==-->
+      <div class="preloader-wrap">
+        <div class="preloader">
+          <span class="dot"></span>
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!--== End Preloader Content ==-->
+
+      <!--== Start Header Wrapper ==-->
+      <header class="header-wrapper">
+        <div class="header-top-area">
+          <div class="header-top-align">
+            <div class="header-top-align-left">
+              <div class="header-logo-area">
+                <a href="index.html">
+                  <img
+                    class="logo-main"
+                    src="assets/img/brand-logo/epping.png"
+                    width="150"
+                    height="56"
+                    alt="Logo"
+                  />
+                  <img
+                    class="logo-light"
+                    src="assets/img/logo-light.webp"
+                    width="237"
+                    height="78"
+                    alt="Logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="header-top-align-right">
+              <div class="header-info-items">
+                <div class="info-items">
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/time1.webp"
+                        width="48"
+                        height="48"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <p>9 am to 8 pm (Mon - Sat)<br />9 am to 5 pm (Sun)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-items">
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/map.webp"
+                        width="46"
+                        height="48"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <p>
+                        Shop 39, 74 Rawson Street <br />(Facing, Beecroft Rd),
+                        Epping NSW 2121
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header-appointment-button">
+                <a class="appointment-btn" href="contact.html"
+                  >Book An Appointment</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-area sticky-header header-default">
+          <div class="container">
+            <div class="row no-gutter align-items-center position-relative">
+              <div class="col-12">
+                <div class="header-align">
+                  <div class="mobile-header-logo">
+                    <a href="index.html">
+                      <img
+                        class="logo-light"
+                        src="assets/img/logo-light.webp"
+                        width="170"
+                        height="78"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                  <div class="header-navigation-area">
+                    <ul class="main-menu nav">
+                      <li>
+                        <a href="index.html"><span>Home</span></a>
+                      </li>
+                      <li class="has-submenu">
+                        <a
+                          href="file:///Users/rogertan/Downloads/predent-dental-care-html-template-2022-10-16-06-28-08-utc/predent/index.html#Services"
+                          ><span>Services</span></a
+                        >
+                      </li>
+                      <li class="has-submenu">
+                        <a href="team.html"><span>Dentists</span></a>
+                      </li>
+
+                      <li>
+                        <a href="contact.html"><span>Contact</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--== End Header Wrapper ==-->
+
+      <main class="main-content">
+        <!--== Start Hero Area Wrapper ==-->
+        <section class="home-slider-area">
+          <div
+            class="swiper-container home-slider-container default-slider-container"
+          >
+            <div class="swiper-wrapper home-slider-wrapper slider-default">
+              <div class="swiper-slide">
+                <div
+                  class="slider-content-area"
+                  data-bg-img="assets/img/slider/bg-slider-01.webp"
+                >
+                  <div class="slider-container">
+                    <div class="slider-content">
+                      <div class="content">
+                        <div class="sub-title-box">
+                          <h4 class="sub-title">DENTAL CARE</h4>
+                        </div>
+                        <div class="title-box">
+                          <h2 class="title">Always Smiling</h2>
+                        </div>
+                        <div class="desc-box">
+                          <p class="desc">
+                            Dental care is the maintenance of healthy teeth and
+                            the practice of keeping the mouth and teeth clean.
+                          </p>
+                        </div>
+                        <div class="btn-slider-box">
+                          <a class="btn-slider" href="contact.html"
+                            >Contact us</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-thumb">
+                      <div class="thumb">
+                        <div class="shape1">
+                          <img
+                            src="assets/img/photos/dentistphoto.jpeg"
+                            width="575"
+                            height="575"
+                            alt="Image-HasTech"
+                          />
+                        </div>
+                        <div
+                          class="shape2"
+                          data-bg-img="assets/img/icons/1.webp"
+                        ></div>
+                        <div
+                          class="shape3"
+                          data-bg-img="assets/img/shape/3.webp"
+                        ></div>
+                        <div class="shape4">
+                          <img
+                            src="assets/img/shape/4.webp"
+                            width="86"
+                            height="120"
+                            alt="Image-HasTech"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--== End Hero Area Wrapper ==-->
+
+        <!--== Start Service List Area Wrapper ==-->
+        <section class="service-list-area service-list-default-area">
+          <div class="container pb--0">
+            <div class="row">
+              <div class="col-12">
+                <div class="service-list-content-wrap">
+                  <div class="grid-item">
+                    <!--== Start Service List Item ==-->
+                    <div class="service-list-item" data-aos="fade-up">
+                      <div class="icon-box">
+                        <img
+                          src="assets/img/icons/fun1.webp"
+                          width="62"
+                          height="79"
+                          alt="Image-HasTech"
+                        />
+                      </div>
+                      <div class="content">
+                        <h2 class="price-number">
+                          <span>$</span
+                          ><span class="counter" data-counterup-delay="30"
+                            >2000</span
+                          >
+                        </h2>
+                        <h6 class="title">Dental Implant</h6>
+                      </div>
+                    </div>
+                    <!--== End Service List Item ==-->
+                  </div>
+                  <div class="grid-item">
+                    <!--== Start Service List Item ==-->
+                    <div class="service-list-item" data-aos="fade-up">
+                      <div class="icon-box">
+                        <img
+                          src="assets/img/icons/fun2.webp"
+                          width="74"
+                          height="79"
+                          alt="Image-HasTech"
+                        />
+                      </div>
+                      <div class="content">
+                        <h2 class="price-number">
+                          <span>$</span
+                          ><span class="counter" data-counterup-delay="30"
+                            >135</span
+                          >
+                        </h2>
+                        <h6 class="title">Teeth Whitening</h6>
+                      </div>
+                    </div>
+                    <!--== End Service List Item ==-->
+                  </div>
+                  <div class="grid-item">
+                    <!--== Start Service List Item ==-->
+                    <div class="service-list-item" data-aos="fade-up">
+                      <div class="icon-box">
+                        <img
+                          src="assets/img/icons/fun3.webp"
+                          width="89"
+                          height="78"
+                          alt="Image-HasTech"
+                        />
+                      </div>
+                      <div class="content">
+                        <h2 class="price-number">
+                          <span>$</span
+                          ><span class="counter" data-counterup-delay="30"
+                            >230</span
+                          >
+                        </h2>
+                        <h6 class="title">Dental Crown</h6>
+                      </div>
+                    </div>
+                    <!--== End Service List Item ==-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--== End Service List Area Wrapper ==-->
+
+        <!--== Start Divider Area Wrapper ==-->
+        <div class="divider-area position-relative z-index-1">
+          <div class="container pt--0 pb--0">
+            <div class="row divider-style-wrap">
+              <div class="col-md-5">
+                <div class="divider-content">
+                  <div class="section-title mb--0">
+                    <h5 class="sub-title">OUR Promise</h5>
+                    <h2 class="title mb--0">
+                      Outstanding <span>service</span> for your Teeth
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="divider-content justify-content-end">
+                  <div class="emergency-call-info">
+                    <div class="content">
+                      <h4 class="title">Call us for Booking</h4>
+                      <h3 class="number">(02) 9869 3003</h3>
+                    </div>
+                    <div class="icon-box">
+                      <img
+                        class="icon-img"
+                        src="assets/img/icons/booking1.webp"
+                        width="79"
+                        height="89"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-layer-style"
+            data-bg-img="assets/img/photos/bg1.webp"
+          ></div>
+        </div>
+        <!--== End Divider Area Wrapper ==-->
+
+        <!--== Start Services Area Wrapper ==-->
+        <section class="service-area service-default-area" id="Services">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <!--== Start Services Box Item ==-->
+                <div class="service-box service-box1" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/s1.webp"
+                        width="68"
+                        height="72"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4 class="title">
+                        <a href="service-details.html">General Dentistry</a>
+                      </h4>
+                      <p>
+                        General dentistry is a branch of dentistry that focuses
+                        on the prevention, diagnosis, and treatment of common
+                        dental conditions and oral health issues. General
+                        dentists are primary oral healthcare providers who offer
+                        a wide range of services to patients of all ages.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Services Box Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <!--== Start Services Box Item ==-->
+                <div class="service-box service-box2" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/s2.webp"
+                        width="82"
+                        height="72"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4 class="title">
+                        <a href="service-details.html">Cosmetic Braces</a>
+                      </h4>
+                      <p>
+                        Braces are orthodontic devices used to correct
+                        misaligned teeth and improve the overall alignment and
+                        appearance of the smile. They consist of brackets,
+                        wires, and other components that work together to
+                        gradually move the teeth into their proper positions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Services Box Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <!--== Start Services Box Item ==-->
+                <div class="service-box service-box3" data-aos="fade-up">
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/s3.webp"
+                        width="64"
+                        height="72"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4 class="title">
+                        <a href="service-details.html">Prediatic Dentistry</a>
+                      </h4>
+                      <p>
+                        Pediatric dentistry is a specialized field of dentistry
+                        that focuses on the oral health care of infants,
+                        children, and adolescents. Pediatric dentistry places a
+                        strong emphasis on preventive dental care. This includes
+                        regular dental check-ups, professional cleanings,
+                        fluoride treatments, dental sealants, and education on
+                        proper oral hygiene practices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Services Box Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <!--== Start Services Box Item ==-->
+                <div
+                  class="service-box service-box4"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/s4.webp"
+                        width="77"
+                        height="72"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4 class="title">
+                        <a href="service-details.html">Dental Bridge</a>
+                      </h4>
+                      <p>
+                        A dental bridge is a common dental restoration used to
+                        replace one or more missing teeth. It consists of one or
+                        more artificial teeth called pontics, which are anchored
+                        to the adjacent teeth.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Services Box Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <!--== Start Services Box Item ==-->
+                <div
+                  class="service-box service-box5"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/s5.webp"
+                        width="87"
+                        height="72"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4 class="title">
+                        <a href="service-details.html">Oral Surgery</a>
+                      </h4>
+                      <p>
+                        Oral surgery is a specialized branch of dentistry that
+                        involves surgical procedures performed on the mouth,
+                        jaw, and face. It encompasses a wide range of surgical
+                        treatments aimed at diagnosing, preventing, and
+                        correcting various oral and maxillofacial conditions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Services Box Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <!--== Start Services Box Item ==-->
+                <div
+                  class="service-box service-box6"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="inner-content">
+                    <div class="icon">
+                      <img
+                        src="assets/img/icons/s6.webp"
+                        width="89"
+                        height="70"
+                        alt="Image-HasTech"
+                      />
+                    </div>
+                    <div class="content">
+                      <h4 class="title">
+                        <a href="service-details.html">Root Canals</a>
+                      </h4>
+                      <p>
+                        A root canal is a dental procedure used to treat and
+                        save a severely damaged or infected tooth. It involves
+                        removing the infected or inflamed pulp from the inside
+                        of the tooth, cleaning and disinfecting the root canals,
+                        and then filling and sealing them to prevent further
+                        infection.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--== End Services Box Item ==-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--== End Services Area Wrapper ==-->
+      </main>
+
+      <!--== Start Footer Area Wrapper ==-->
+      <footer class="footer-area">
+        <!--== Start Footer Main ==-->
+        <div class="footer-main">
+          <div class="container pt--0 pb--0">
+            <div class="row no-gutter">
+              <div class="col-sm-6 col-lg-3">
+                <!--== Start widget Item ==-->
+                <div class="widget-item">
+                  <div class="about-widget-wrap">
+                    <div class="widget-logo-area">
+                      <a href="index.html">
+                        <img
+                          class="logo-main"
+                          src="./assets/img/brand-logo/epping.png"
+                          width="237"
+                          height="78"
+                          alt="Logo"
+                        />
+                      </a>
+                    </div>
+                    <p class="desc">
+                      Dental care is the maintenance of healthy teeth a clean
+                      mouth.
+                    </p>
+                  </div>
+                </div>
+                <!--== End widget Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <!--== Start widget Item ==-->
+                <div class="widget-item widget-menu">
+                  <h4 class="widget-title">Our Services</h4>
+                  <div class="widget-menu-wrap">
+                    <ul class="nav-menu">
+                      <li><General Dentistry</li>
+                      <li>Oral Surgery</li>
+                      <li>Dental Bridge</li>
+                      <li>Root Canals</li>
+                      <li>Cosmetic Braces</li>
+                      <li>Pediatric Dentistry</li>
+                    </ul>
+                  </div>
+                </div>
+                <!--== End widget Item ==-->
+              </div>
+
+              <div class="col-sm-6 col-lg-3">
+                <!--== Start widget Item ==-->
+                <div class="widget-item widget-contact">
+                  <h4 class="widget-title">Contact us</h4>
+                  <div class="widget-contact-wrap">
+                    <ul>
+                      <li>
+                        Shop 39, 74 Rawson Street (Facing, Beecroft Rd), Epping
+                        NSW 2121
+                      </li>
+                      <li>
+                        <a href="tel:+98745612301">(02) 9869 3003</a>
+                      </li>
+                      <li>
+                        <a href="mailto:info@example.com"
+                          >eppingdentalcentre@gmail.com</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--== End widget Item ==-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--== End Footer Main ==-->
+
+        <!--== Start Footer Bottom ==-->
+        <div class="footer-bottom">
+          <div class="container pt--0 pb--0">
+            <div class="row">
+              <div class="col-12">
+                <p class="copyright">
+                  © 2022 Made with <i class="fa fa-heart"></i> by Roger Tan
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--== End Footer Bottom ==-->
+      </footer>
+      <!--== End Footer Area Wrapper ==-->
+
+      <!--== Scroll Top Button ==-->
+      <div id="scroll-to-top" class="scroll-to-top">
+        <span class="fa fa-angle-up"></span>
+      </div>
+
+      <!--== Start Aside Menu ==-->
+      <aside
+        class="off-canvas-wrapper offcanvas offcanvas-start"
+        tabindex="-1"
+        id="AsideOffcanvasMenu"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h1 class="d-none" id="offcanvasExampleLabel">Aside Menu</h1>
+          <button
+            class="btn-menu-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            menu <i class="fa fa-chevron-left"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- Mobile Menu Start -->
+          <div class="mobile-menu-items">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="#Services">Services</a>
+              </li>
+              <li>
+                <a href="team.html">Dentists</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#" class="mega-title">Blog Layout</a>
+                    <ul class="sub-menu">
+                      <li><a href="blog.html">Blog Grid</a></li>
+                      <li>
+                        <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="mega-title">Blog Single Layout</a>
+                    <ul class="sub-menu">
+                      <li><a href="blog-details.html">Blog Details</a></li>
+                      <li>
+                        <a href="blog-details-left-sidebar.html"
+                          >Blog Details Left Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-details-right-sidebar.html"
+                          >Blog Details Right Sidebar</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- Mobile Menu End -->
+          <div class="mobile-menu-info">
+            <div class="info-item">
+              <div class="icon">
+                <img
+                  src="assets/img/icons/time1.webp"
+                  width="35"
+                  height="35"
+                  alt="Image-HasTech"
+                />
+              </div>
+              <div class="content">
+                <p>8 am to 6 pm (Mon - Fri)<br />10 am to 8 pm (Sat - Sun)</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <img
+                  src="assets/img/icons/map.webp"
+                  width="35"
+                  height="37"
+                  alt="Image-HasTech"
+                />
+              </div>
+              <div class="content">
+                <p>258C, Saintpatrick, Main Street Notrth Town, New York</p>
+              </div>
+            </div>
+          </div>
+          <a class="mobile-menu-btn" href="contact.html">BOOK AN Appointment</a>
+          <div class="mobile-menu-action"></div>
+        </div>
+      </aside>
+      <!--== End Aside Menu ==-->
+    </div>
+
+    <!--=======================Javascript============================-->
+
+    <!--=== jQuery Modernizr Min Js ===-->
+    <script src="assets/js/modernizr-3.5.0.js"></script>
+    <!--=== jQuery Min Js ===-->
+    <script src="assets/js/jquery-3.6.0-main.js"></script>
+    <!--=== jQuery Migration Min Js ===-->
+    <script src="assets/js/jquery-3.3.2-migrate.js"></script>
+    <!--=== jQuery Bootstrap Min Js ===-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--=== jQuery Swiper Min Js ===-->
+    <script src="assets/js/swiper.min.js"></script>
+    <!--=== jQuery Fancybox Min Js ===-->
+    <script src="assets/js/fancybox.min.js"></script>
+    <!--=== jQuery Waypoint Js ===-->
+    <script src="assets/js/waypoint-4.0.1.js"></script>
+    <!--=== jQuery Aos Min Js ===-->
+    <script src="assets/js/aos.min.js"></script>
+    <!--=== jQuery Counterup Min Js ===-->
+    <script src="assets/js/counterup.js"></script>
+    <!--=== jQuery Datetimepicker Min Js ===-->
+    <script src="assets/js/jquery.datetimepicker.min.js"></script>
+
+    <!--=== jQuery Custom Js ===-->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
